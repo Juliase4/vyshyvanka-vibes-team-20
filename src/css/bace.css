@@ -1,6 +1,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   background-color: #1C2225;
+  color: rgba(252, 249, 249, 0.40);
 }
 
 .container {
@@ -78,4 +79,9 @@ button {
 
 .accent-color {
   color: #ECD979;
+}
+
+h1,
+h2 {
+  color: #FCF9F9;
 }
