@@ -1,0 +1,81 @@
+.background-img-order {
+    width: 375px;
+    height: 550px;
+    background-image: url(../img/mob/girl-two-mob.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.order-block {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.your-order-header {
+    color: var(--white, #FCF9F9);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+}
+.order-form {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.name-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: var(--black, #1C2225);
+}
+.email-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: var(--black, #1C2225);
+}
+.comments-input {
+    width: 100%;
+    height: 192px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: var(--black, #1C2225);
+}
+.send-btn {
+    height: 49px;
+    width: 145px;
+    padding: 14px 36px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: #1C2225;
+    color: #FCF9F9;
+}
+.btn-icon {
+    fill: #ECD979;
+}
+
+.img-wrapper {
+    position: relative;
+}
+.choose-img {
+    position: absolute;
+    z-index: 10;
+}
+
+/* 
+@media screen and (max-width: 768px) {
+    .visually-hidden {
+        display: none;
+    }
+} */
+@media screen and (min-width: 768px) {
+  .visually-hidden {
+    overflow: visible;
+  }
+}
