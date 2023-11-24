@@ -7,6 +7,7 @@
   background-size: 459px 408px;
   background-repeat: no-repeat;
   position: relative;
+  z-index: -1;
 }
 .text-container {
   display: flex;
