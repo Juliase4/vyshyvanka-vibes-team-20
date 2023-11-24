@@ -1,0 +1,48 @@
+/* ABOUT US */
+.about-us-section {
+  border-radius: 4px;
+  background-image: url(../img/ornament/ornament-about-small.png);
+  background-position: -70% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-us-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  color: var(--white, #fcf9f9);
+  margin-bottom: 40px;
+}
+.about-us-text-first-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 20px;
+}
+.about-us-text-second-paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 50px;
+}
+/* .about-us-image{
+  position: absolute;
+  
+} */
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .about-us-section {
+    background-image: url(../img/ornament/ornament-about-small@2x.png);
+  }
+}
+/* ABOUT US */
