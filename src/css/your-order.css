@@ -1,3 +1,13 @@
+.visually-hidden-order-section {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 .background-img-order {
     width: 375px;
     height: 550px;
@@ -67,15 +77,18 @@
     position: absolute;
     z-index: 10;
 }
+.img-embroidery-pattern {
+    color: rgba(252, 249, 249, 0.10);
+}
 
-/* 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .visually-hidden {
-        display: none;
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        clip: auto;
+        clip-path: none;
     }
-} */
-@media screen and (min-width: 768px) {
-  .visually-hidden {
-    overflow: visible;
-  }
 }
