@@ -26,7 +26,7 @@
   <!-- CSS -->
   
   <script type="module" crossorigin src="/vyshyvanka-vibes-team-20/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/vyshyvanka-vibes-team-20/assets/index-2c4baeb6.css">
+  <link rel="stylesheet" href="/vyshyvanka-vibes-team-20/assets/index-1c1b8379.css">
 </head>
 
 <body>
@@ -35,31 +35,35 @@
   <main>
     <section class="hero">
   <div class="container">
-    <div class="header-button-block">
-      <h1 class="main-header">
-        Reviving the traditional <span>Ukrainian</span> artistry in every
-        stitch.
-      </h1>
-      <a href="#order" class="button-link"
-        >Order
-        <svg width="26" height="10" class="icon-arrow">
-          <use href="../img/symbol-defs.svg#icon-arrow"></use>
-        </svg>
-      </a>
+    <div class="header-img-block">
+      <div class="header-button-block">
+        <h1 class="main-header">
+          Reviving the traditional
+          <span class="accent-color">Ukrainian</span> artistry in every stitch.
+        </h1>
+        <div class="button-with-arrow">
+          <a href="#order" class="button-link"
+            >Order
+            <svg width="26" height="10" class="icon-arrow">
+              <use href="../img/symbol-defs.svg#icon-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <img
+        srcset="
+          ../img/mob/girl-mob.jpg            335w,
+          ../img/tablet/girl-tab.jpg         413w,
+          ../img/des-one/girl-des-one.jpg    392w,
+          ../img/mob/girl-mob@2x.jpg         670w,
+          ../img/tablet/girl-tab@2x.jpg      826w,
+          ../img/des-one/girl-des-one@2x.jpg 784w
+        "
+        sizes="(max-width: 767px) 335px, (min-width: 768px) 413px, (min-width: 1280px) 392px"
+        src="../img/mob/girl-mob.jpg"
+        alt="girl-in-grey-blowse"
+      />
     </div>
-    <img
-      srcset="
-        ../img/mob/girl-mob.jpg            335w,
-        ../img/tablet/girl-tab.jpg         413w,
-        ../img/des-one/girl-des-one.jpg    392w,
-        ../img/mob/girl-mob@2x.jpg         670w,
-        ../img/tablet/girl-tab@2x.jpg      826w,
-        ../img/des-one/girl-des-one@2x.jpg 784w
-      "
-      sizes="(max-width: 767px) 335px, (min-width: 768px) 413px, (min-width: 1280px) 392px"
-      src="../img/mob/girl-mob.jpg"
-      alt="girl-in-grey-blowse"
-    />
     <div class="absolute-positioned-img">
       <div class="star-section-with-text">
         <svg width="49" height="49" class="icon-star">
@@ -68,10 +72,11 @@
         <p class="by-hand-text">all embroidery is made by hand</p>
       </div>
       <img
-        srcset="../img/tablet/img-hero-tab.jpg 2x"
-        src="../img/tablet/img-hero-tab.jpg"
-        width="139"
+        srcset="../img/tablet/kraina-hero.png 2x"
+        src="../img/tablet/kraina-hero.png"
+        width="157"
         alt="ukraine-on-shirt"
+        class="hero-img"
       />
     </div>
   </div>
@@ -215,7 +220,63 @@
   </div>
 </section>
 
-    
+    <section class="section testimonials">
+  <div class="container">
+    <h2 class="testimonials-headline">Testimonials</h2>
+    <ul class="list testimonials-list">
+      <li class="testimonial-item">
+        <picture>
+          <source srcset="../img/people/maria@2x.png" />
+          <img
+            class="testimonial-img"
+            src="../img/people/maria.png"
+            alt="Foto Maria Tkachuk"
+        /></picture>
+        <h3 class="testimonial-title">Maria Tkachuk</h3>
+        <p class="testimonial-txt">
+          I was pleasantly surprised by the variety of embroidery offered by
+          Vyshyvanka Vibes. They have models for every taste - from classic to
+          modern. I bought an embroidered dress to celebrate a special occasion
+          and received impeccable service and refinement in every detail.
+        </p>
+      </li>
+      <li class="testimonial-item">
+        <picture>
+          <source srcset="../img/people/serhey@2x.png" />
+          <img
+            class="testimonial-img"
+            src="../img/people/serhey.png"
+            alt="Foto Sergey Rybachok"
+        /></picture>
+        <h3 class="testimonial-title">Sergey Rybachok</h3>
+        <p class="testimonial-txt">
+          Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+          simply masterpieces! I fell in love with the quality of the materials
+          and the skill of the artisans behind each product. This is my favorite
+          embroidery shop where I always find something special and unique.
+        </p>
+      </li>
+      <li class="testimonial-item">
+        <picture>
+          <source srcset="../img/people/nataliia@2x.png" />
+          <img
+            class="testimonial-img"
+            src="../img/people/nataliia.png"
+            alt="Natalia Chatuk"
+        /></picture>
+        <h3 class="testimonial-title">Natalia Chatuk</h3>
+        <p class="testimonial-txt">
+          Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian
+          culture. Their embroidery reflects the spirit and traditions of our
+          people. I not only buy embroidered shirts for myself, but also give
+          them to my friends abroad as a symbol of our beauty and national
+          pride.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
   </main>
   <footer class="page-footer">
 
