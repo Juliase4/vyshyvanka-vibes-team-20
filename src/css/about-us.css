@@ -1,9 +1,10 @@
-/* ABOUT US */
+
 .about-us-section {
   border-radius: 4px;
   background-image: url(../img/ornament/ornament-about-small.png);
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: -54% 93%;
+  background-size: 459px 408px;
 }
 
 .text-container {
@@ -78,6 +79,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 @media screen and (min-width: 768px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big.png);
+    background-size: 545px 484px;
   }
 
   .about-us-container {
@@ -212,8 +214,8 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
 /* DESKTOP 1440 VERSION */
 @media screen and (min-width: 1440px) {
-  .about-us-section {
 
+  .about-us-section {
     background-position: right bottom;
   }
 
@@ -231,4 +233,3 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
   }
 }
 
-/* ABOUT US */
