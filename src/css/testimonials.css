@@ -60,3 +60,20 @@
     font-size: 16px;
   }
 }
+
+/* Desktop adaptive */
+@media screen and (min-width: 1280px) {
+  .testimonial-item {
+    max-width: 343px;
+  }
+
+  .testimonial-item:last-child {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.testimonial-item {
+    max-width: 396px;
+  }
+}
