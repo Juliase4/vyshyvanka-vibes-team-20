@@ -8,13 +8,10 @@
     background-size: 199px 177px;
     background-repeat: no-repeat;
     background-position: top 285px left -125px;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .collection-title {
     color: var(--white, #fcf9f9);
-    font-family: Manrope;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.4;
@@ -27,12 +24,9 @@
 
 .price {
     color: rgba(252, 249, 249, 0.4);
-    font-family: Manrope;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 14px;
-    /* 100% */
+    line-height: 1;
     letter-spacing: 0.7px;
 }
 
@@ -78,14 +72,11 @@
     overflow: hidden;
     color: var(--white, #fcf9f9);
     text-overflow: ellipsis;
-    font-family: Manrope;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 14px;
-    /* 100% */
-    letter-spacing: 0.7px;
+    line-height: 1;
+    letter-spacing: 0.5em;
     text-transform: uppercase;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
