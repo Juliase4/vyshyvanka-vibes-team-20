@@ -86,7 +86,7 @@
 
 /* DESKTOP 1280 VERSION */
 @media screen and (min-width: 1280px) {
-    .about-us-container {
+  .about-us-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -96,7 +96,7 @@
     display: flex;
     width: 709px;
   }
-    .text-container {
+  .text-container {
     width: 481px;
     padding-top: 78px;
     padding-bottom: 79px;
@@ -108,8 +108,70 @@
   .about-us-title:focus {
     color: var(--yellow, #ecd979);
   }
-  .about-us-section:hover{
+  .about-us-section:hover {
     color: var(--yellow, #ecd979);
+  }
+
+  /* additionals */
+  .about-us-text-second-paragraph:hover,
+  .about-us-text-second-paragraph:focus {
+    color: var(--yellow, #ecd979);
+  }
+  .about-us-text-first-paragraph:hover,
+  .about-us-text-first-paragraph:focus {
+    color: var(--yellow, #ecd979);
+  }
+  .about-us-image {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transition-property: transform;
+    transition-duration: 350ms;
+  }
+  .about-us-image:hover {
+    transform: scale(1.1);
+  }
+
+  .overlay-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 2.5;
+    letter-spacing: -0.03em;
+    color: var(--white, #fcf9f9);
+    padding: 100px 10px;
+    background-color: #1c2225;
+    text-wrap: wrap;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 100;
+    visibility: visible;
+  }
+  .curs {
+    font-style: italic;
+    font-size: 35px;
+  }
+  .icon-over {
+    fill: #ecd979;
+  }
+  .images-container {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .images-container:hover .overlay-text,
+  .images-container:focus .overlay-text {
+    transform: translateY(0%);
+  }
+  .images-container:hover,
+  .images-container:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 }
 /* DESKTOP 1440 VERSION */
