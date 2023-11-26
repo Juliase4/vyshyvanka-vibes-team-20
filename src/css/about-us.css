@@ -33,6 +33,9 @@
   color: rgba(252, 249, 249, 0.4);
   margin-bottom: 50px;
 }
+.overlay-text {
+  visibility: hidden;
+}
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -45,21 +48,21 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and(min-width:768px) {
   .about-us-section {
-    background-image: url(../img/tablet/sleeve-tab@2x.jpg);
+    background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .about-us-section {
-    background-image: url(../img/des-one/sleeve-des-one@2x.jpg);
+    background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
   screen and (min-resolution: 2dppx) and (min-width: 1440px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
   .about-us-section {
-    background-image: url(../img/des-two/sleeve-des-two@2x.jpg);
+    background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 /* TABLET VERSION */
@@ -177,7 +180,18 @@
 /* DESKTOP 1440 VERSION */
 @media screen and (min-width: 1440px) {
   .about-us-section {
+    
     background-position: right bottom;
+  }
+  .about-us-container{
+    width: 1240px;
+  }
+  .text-container{
+    width: 481px;
+  }
+  .about-us-image{
+    width: 709px;
+    height: 545px;
   }
 }
 /* ABOUT US */
