@@ -1,24 +1,66 @@
-.visually-hidden-order-section {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
+
 .background-img-order {
-    width: 375px;
+    width: 100%;
     height: 550px;
     background-image: url(../img/mob/girl-two-mob.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .section-one-container {
+        background-image: url('../img/mob/girl-two-mob@2x.jpg');
+    }
+}
+@media screen and (min-width: 768px) {
+    .background-img-order {
+        width: 100%;
+        height: 776px;
+        background-image: url(../img/tablet/girl-two-tab.jpg);
+    }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .section-one-container {
+            background-image: url('../img/tablet/girl-two-tab@2x.jpg');
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .background-img-order {
+        width: 100%;
+        height: 776px;
+        background-image: url(../img/des-one/girl-two-des-one.jpg);
+    }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .section-one-container {
+            background-image: url('../img/des-one/girl-two-des-one@2x.jpg');
+        }
+    }
+}
+@media screen and (min-width: 1440px) {
+    .background-img-order {
+        width: 100%;
+        height: 776px;
+        background-image: url(../img/des-two/girl-two-des-two.jpg);
+    }
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .section-one-container {
+            background-image: url('../img/des-two/girl-two-des-two@2x.jpg');
+        }
+    }
+}
+
 .order-block {
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 .your-order-header {
     color: var(--white, #FCF9F9);
@@ -27,9 +69,10 @@
     line-height: 44px;
     letter-spacing: -0.96px;
     margin-bottom: 40px;
+    width: 335px;
 }
 .order-form {
-    width: 335px;
+    max-width: 335px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,6 +99,7 @@
     border-radius: 8px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background: var(--black, #1C2225);
+    resize: none;
 }
 .send-btn {
     height: 49px;
@@ -65,6 +109,7 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: #1C2225;
     color: #FCF9F9;
+    margin-top: 20px;
 }
 .btn-icon {
     fill: #ECD979;
@@ -91,4 +136,80 @@
         clip: auto;
         clip-path: none;
     }
+    .your-order-flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .your-order-header {
+        font-family: Manrope;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 58px;
+        letter-spacing: -1.32px;
+        width: 542px;
+    }
+    .order-form {
+        width: 508px;
+        align-items: start;
+    }
+    /* .img-wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+    } */
+    .vest-img {
+        margin-left: 66px;
+    }
+    .your-order-section {
+        background-image: url("../img/ornament/grey-ornament-order.png");
+        background-repeat: no-repeat;
+        background-size: 545px 484px;
+        background-position: -115% 100%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .your-order-flex-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 40px;
+    }
+    .order-block{
+        order: 2;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .order-form {
+        max-width: 508px;
+    }
+    .img-wrapper {
+        order: 1;
+        margin-left: -36px;
+        
+    }
+    .vest-img {
+        margin-left: 0;
+    }
+    .your-order-section {
+        background-position: -35% 93.9%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        margin-left: 0;
+    }
+    .your-order-flex-container{
+        width: 1240px;
+    }
+    .img-wrapper {
+        order: 1;
+    }
+    .your-order-header{
+        width: 666px;
+    }
+
+
 }
