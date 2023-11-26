@@ -86,9 +86,7 @@
 
 /* DESKTOP 1280 VERSION */
 @media screen and (min-width: 1280px) {
-  .about-us-section {
-  }
-  .about-us-container {
+    .about-us-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -98,7 +96,7 @@
     display: flex;
     width: 709px;
   }
-  .text-container {
+    .text-container {
     width: 481px;
     padding-top: 78px;
     padding-bottom: 79px;
@@ -108,6 +106,9 @@
   }
   .about-us-title:hover,
   .about-us-title:focus {
+    color: var(--yellow, #ecd979);
+  }
+  .about-us-section:hover{
     color: var(--yellow, #ecd979);
   }
 }
