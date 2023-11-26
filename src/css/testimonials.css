@@ -3,7 +3,6 @@
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.03em;
-  color: #fcf9f9;
   margin-bottom: 64px;
 }
 
@@ -38,8 +37,43 @@
   color: rgba(252, 249, 249, 0.4);
   text-align: center;
   font-size: 14px;
-  font-weight: 400;
-  margin: 0;
-  line-height: normal;
   color: rgba(252, 249, 249, 0.4);
+}
+/* Tablet adaptive */
+@media screen and (min-width: 768px) {
+  .testimonials-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .testimonial-item {
+    max-width: 336px;
+    display: block;
+  }
+
+  .testimonial-item:last-child {
+    display: none;
+  }
+
+  .testimonials-txt {
+    font-size: 16px;
+  }
+}
+
+/* Desktop adaptive */
+@media screen and (min-width: 1280px) {
+  .testimonial-item {
+    max-width: 343px;
+  }
+
+  .testimonial-item:last-child {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.testimonial-item {
+    max-width: 396px;
+  }
 }
