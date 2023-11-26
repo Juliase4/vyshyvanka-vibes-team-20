@@ -1,3 +1,10 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .main-header {
   font-family: Manrope;
   font-size: 44px;
@@ -39,7 +46,11 @@
 .button-link:active {
   border-color: #ecd979;
 }
-
+@media screen and (max-width: 370px) {
+  .girl-in-grey-blowse {
+    max-width: 335px;
+  }
+}
 .icon-arrow {
   width: 37.5px;
   height: 21px;
@@ -66,6 +77,11 @@
   letter-spacing: -0.04em;
   width: 115px;
 }
+.button-with-arrow {
+  margin-left: 70px;
+  margin-bottom: 40px;
+  width: 168px;
+}
 .star-section-with-text {
   text-align: center;
   width: 115px;
@@ -74,6 +90,10 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
   .main-header {
     font-size: 54px;
     line-height: 1.18;
@@ -82,6 +102,7 @@
     margin-bottom: 40px;
     padding-top: 26px;
   }
+
   .header-button-block {
     width: 549px;
   }
@@ -90,7 +111,7 @@
   }
   .star-section-with-text {
     position: absolute;
-    top: 0;
+    top: 80px;
     right: 32px;
   }
   .hero-img {
@@ -98,12 +119,18 @@
     right: 32px;
     transform: translatey(-50%);
   }
-
+  .button-with-arrow {
+    margin-left: 141px;
+  }
   hero > container {
     position: relative;
   }
 }
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
   .main-header {
     font-size: 54px;
     line-height: 1.18;
@@ -116,31 +143,39 @@
     margin-left: 141px;
     padding: 0;
   }
+  .header-button-block {
+    width: 518px;
+  }
   .header-img-block {
     display: flex;
     flex-direction: row-reverse;
+    width: 950px;
     gap: 40px;
+    justify-content: flex-end;
   }
   .hero-img {
     position: absolute;
     right: 96.84px;
   }
   .star-section-with-text {
-    top: 14px;
+    top: 114px;
     right: 100px;
   }
 }
 @media screen and (min-width: 1440px) {
   .star-section-with-text {
-    top: 66px;
+    top: 166px;
   }
   .main-header {
-    font-size: 54px;
-    line-height: 1.18;
+    font-size: 64px;
+    line-height: 1.16;
     letter-spacing: -0.03em;
-    width: 518px;
+    width: 630px;
     margin-bottom: 40px;
     padding-top: 66px;
+  }
+  .header-img-block {
+    width: 1062px;
   }
   .hero-img {
     position: absolute;
