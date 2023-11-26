@@ -7,7 +7,7 @@
     background-image: url("../img/ornament/ornament-collection-small.png");
     background-size: 199px 177px;
     background-repeat: no-repeat;
-    background-position: top 285px left -125px;
+    background-position: top 330px left -125px;
 }
 
 .collection-title {
@@ -75,7 +75,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     margin-bottom: 8px;
 }
