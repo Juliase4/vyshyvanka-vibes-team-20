@@ -45,6 +45,7 @@
 .button-link:focus,
 .button-link:active {
   border-color: #ecd979;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (max-width: 375px) {
   .girl-in-grey-blowse {
