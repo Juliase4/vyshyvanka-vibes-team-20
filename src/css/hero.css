@@ -1,7 +1,7 @@
 .hero {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
@@ -11,7 +11,7 @@
   font-weight: 400;
   line-height: 1.22;
   letter-spacing: -0.03em;
-  width: 335px;
+  /* width: 335px; */
   margin-bottom: 20px;
 }
 .button-link {
@@ -46,9 +46,17 @@
 .button-link:active {
   border-color: #ecd979;
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
   .girl-in-grey-blowse {
-    max-width: 335px;
+    /* max-width: 335px; */
+  }
+  .hero > .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-header {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .icon-arrow {
@@ -91,7 +99,7 @@
 }
 @media screen and (min-width: 768px) {
   .hero {
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 50px;
   }
   .main-header {
@@ -111,7 +119,7 @@
   }
   .star-section-with-text {
     position: absolute;
-    top: 80px;
+    top: 0;
     right: 32px;
   }
   .hero-img {
@@ -122,13 +130,13 @@
   .button-with-arrow {
     margin-left: 141px;
   }
-  hero > container {
+  .hero > .container {
     position: relative;
   }
 }
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 75px;
   }
   .main-header {
@@ -158,19 +166,19 @@
     right: 96.84px;
   }
   .star-section-with-text {
-    top: 114px;
+    top: 14px;
     right: 100px;
   }
 }
 @media screen and (min-width: 1440px) {
   .star-section-with-text {
-    top: 166px;
+    top: 66px;
   }
   .main-header {
     font-size: 64px;
     line-height: 1.16;
-    letter-spacing: -0.03em;
-    width: 630px;
+    letter-spacing: -0.02em;
+    width: 632px;
     margin-bottom: 40px;
     padding-top: 66px;
   }
