@@ -1,0 +1,132 @@
+
+.navigation-list{
+    display: flex;
+}
+.header-container{
+    display: flex;
+    padding: 20px 20px 60px 20px;
+    margin: 0 auto;
+}
+.social-list{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-right: 12px;
+}
+.social-list-item {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background: rgba(252, 249, 249, 0.10);
+    
+}
+.social-list-item-link {
+    height: 28px;
+    height: 28px;
+}
+.navigation-list-item{
+    display: none;
+}
+.address-item {
+    display: none;
+}
+.home-page-logo{
+    margin-right: 87px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.logo-svg {
+    fill: #ECD979;
+}
+.burger-menu {
+    width: 36px;
+    height: 24px;
+    margin: auto 0;
+}
+
+@media screen and (min-width: 375px) {
+    .header-container {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header-container {
+        width: 768px;
+        padding: 20px 32px 80px 32px;
+    }
+    .home-page-logo {
+        margin-right: 440px;
+    }
+    .social-list {
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .header-container {
+        width: 1280px;
+        padding: 20px 100px 100px 100px;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .header-navigation {
+        display: flex;
+    }
+    .navigation-list {
+        gap: 25px;
+        margin-right: 129px;
+        display: flex;
+        align-items: center;
+    }
+    .navigation-list-item {
+        display: inline-flex;
+        text-transform: uppercase;
+        row-gap: 25px;
+        color: #FCF9F9;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.29;
+        text-transform: uppercase;
+    }
+    .home-page-logo {
+        margin-right: 60px;
+    }
+    .address-item {
+        display: inline-flex;
+        color: #FCF9F9;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.43;
+    }
+    .tel-navigation {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 28px;
+        border-radius: 15px;
+        border: 1px solid rgba(252, 249, 249, 0.10);
+    }
+    .social-list {
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .header-container {
+        width: 1440px;
+        padding: 18px 100px 100px 100px;
+    }
+    .navigation-list {
+        margin-right: 289px;
+    }
+}
