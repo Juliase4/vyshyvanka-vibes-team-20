@@ -75,13 +75,16 @@ screen and (min-device-pixel-ratio: 2) {
 
 .send-btn {
     height: 49px;
-    width: 145px;
-    padding: 14px 36px;
+    width: 160px;
+    padding: 14px 39px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: #1C2225;
     color: #FCF9F9;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .btn-icon {
