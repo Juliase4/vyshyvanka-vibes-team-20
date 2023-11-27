@@ -1,10 +1,8 @@
-
 .about-us-section {
   border-radius: 4px;
   background-image: url(../img/ornament/ornament-about-small.png);
   background-repeat: no-repeat;
-  background-position: -54% 93%;
-  background-size: 459px 408px;
+  background-position: right -208px bottom 62px;
 }
 
 .text-container {
@@ -21,22 +19,24 @@
   margin-bottom: 40px;
 }
 
-.about-us-text-first-paragraph {
+.about-us-text-first-paragraph,
+.about-us-text-second-paragraph {
   font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.04em;
-  color: rgba(252, 249, 249, 0.4);
   margin-bottom: 20px;
+  max-width: 335px;
+  color: rgba(252, 249, 249, 0.4);
 }
 
 .about-us-text-second-paragraph {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -0.04em;
-  color: rgba(252, 249, 249, 0.4);
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 375px) {
+  .about-us-text-first-paragraph,
+  .about-us-text-second-paragraph {
+    width: 335px;
+  }
 }
 
 .overlay-text {
@@ -44,32 +44,32 @@
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-small@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and(min-width:768px) {
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and(min-width:768px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-screen and (min-resolution: 2dppx) and (min-width: 1440px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
@@ -79,7 +79,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 @media screen and (min-width: 768px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big.png);
-    background-size: 545px 484px;
+    background-position: right -175px bottom;
   }
 
   .about-us-container {
@@ -94,16 +94,22 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
   .about-us-text-first-paragraph {
     font-size: 16px;
+    min-width: 704px;
   }
 
   .about-us-text-second-paragraph {
     font-size: 16px;
+    min-width: 704px;
     margin-bottom: 40px;
   }
 }
 
 /* DESKTOP 1280 VERSION */
 @media screen and (min-width: 1280px) {
+  .about-us-section {
+    background-position: right -160px bottom;
+  }
+
   .about-us-container {
     display: flex;
     justify-content: center;
@@ -117,12 +123,16 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
   }
 
   .text-container {
-    width: 481px;
     padding-top: 78px;
     padding-bottom: 79px;
   }
 
+  .about-us-text-first-paragraph {
+    min-width: 436px;
+  }
+
   .about-us-text-second-paragraph {
+    min-width: 436px;
     margin-bottom: 0;
   }
 
@@ -146,16 +156,11 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     color: var(--yellow, #ecd979);
   }
 
-
-  .about-us-section:hover {
-    color: var(--yellow, #ecd979);
-  }
-
   .about-us-image {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     transition-property: transform;
-    transition-duration: 350ms;
+    transition-duration: 250ms;
   }
 
   .about-us-image:hover {
@@ -214,17 +219,16 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
 /* DESKTOP 1440 VERSION */
 @media screen and (min-width: 1440px) {
-
   .about-us-section {
     background-position: right bottom;
   }
 
-  .about-us-container {
-    width: 1240px;
+  .about-us-text-first-paragraph {
+    min-width: 481px;
   }
 
-  .text-container {
-    width: 481px;
+  .about-us-text-second-paragraph {
+    min-width: 481px;
   }
 
   .about-us-image {
@@ -232,4 +236,3 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
     height: 545px;
   }
 }
-
