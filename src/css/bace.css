@@ -1,7 +1,7 @@
 body {
   font-family: 'Manrope', sans-serif;
-  background-color: #1C2225;
-  color: rgba(252, 249, 249, 0.40);
+  background-color: #1c2225;
+  color: rgba(252, 249, 249, 0.4);
 }
 
 .container {
@@ -56,7 +56,7 @@ body {
 
 button {
   cursor: pointer;
-  border: none
+  border: none;
 }
 
 .visually-hidden {
@@ -74,10 +74,10 @@ button {
 }
 
 .accent-color {
-  color: #ECD979;
+  color: #ecd979;
 }
 
 h1,
 h2 {
-  color: #FCF9F9;
+  color: #fcf9f9;
 }
