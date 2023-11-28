@@ -3,7 +3,7 @@
     background-image: url("../img/ornament/ornament-collection-small.png");
     background-size: 199px 177px;
     background-repeat: no-repeat;
-    background-position: top 330px left -125px;
+    background-position: top 280px left -125px;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -129,6 +129,7 @@ screen and (min-device-pixel-ratio: 2) {
     }
 
     .section-our-collection {
+        background-image: url("../img/ornament/ornament-collection-big.png");
         background-size: 338px 300px;
         background-position: top 270px left -223px;
     }
@@ -144,6 +145,9 @@ screen and (min-device-pixel-ratio: 2) {
 
 /*----------desktop1280-----------*/
 @media screen and (min-width: 1280px) {
+    .section-our-collection {
+        background-position: top 296px left -171px;
+    }
 
     .collection-item:hover .overlay-collection-text {
         transform: translateY(0%);
@@ -165,7 +169,6 @@ screen and (min-device-pixel-ratio: 2) {
 
 /*----------desktop1440-----------*/
 @media screen and (min-width: 1440px) {
-
     .section-our-collection {
         background-position: top 290px left -171px;
     }
