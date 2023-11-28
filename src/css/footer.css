@@ -7,7 +7,7 @@
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('../img/footer/bg-image.png');
+  background-image: url('../img/ornament/ornament-footer-des.png');
   /* background: var(--bg-color) url('../img/footer/bg-image.svg') top right / 496px 365px no-repeat; */
 }
 .footer__nav ul {
@@ -64,7 +64,7 @@
 }
 @media (max-width: 870px) {
   .footer {
-    background-image: url('../img/footer/bg-image-03.png');
+    background-image: url(../img/ornament/ornament-footer-mob.png);
   }
 }
 @media (max-width: 700px) {
@@ -72,7 +72,7 @@
     padding-bottom: 323px;
     background-position: bottom right;
     background-size: 100% 253px;
-    background-image: url('../img/footer/bg-image-04.png');
+    background-image: url(../img/ornament/ornament-footer-mob.png);
   }
   .footer__image {
     position: relative;
