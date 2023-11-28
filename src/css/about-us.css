@@ -31,44 +31,43 @@
 .about-us-text-second-paragraph {
   margin-bottom: 50px;
 }
-.about-us-image{
+.about-us-image {
   border-radius: 4px;
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-small@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and(min-width:768px) {
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and(min-width:768px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-screen and (min-resolution: 2dppx) and (min-width: 1440px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
   .about-us-section {
     background-image: url(../img/ornament/ornament-about-big@2x.png);
   }
 }
 
 @media screen and (min-width: 375px) {
-
   .about-us-text-first-paragraph,
   .about-us-text-second-paragraph {
     width: 335px;
@@ -217,7 +216,7 @@ details {
 details summary {
   display: block;
   cursor: pointer;
-  color: #ECD979;
+  color: #ecd979;
 }
 
 details summary:focus {
@@ -228,7 +227,7 @@ details[open] {
   display: block;
   padding-bottom: 25px;
   padding-top: 10px;
-  animation: open .2s linear;
+  animation: open 0.2s linear;
 }
 
 details[open] summary {
@@ -247,7 +246,7 @@ details #open:after {
   position: relative;
   top: -3px;
   padding-left: 8px;
-  content: "\00bb";
+  content: '\00bb';
   transform: rotate(90deg);
 }
 
