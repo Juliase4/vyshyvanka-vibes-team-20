@@ -108,6 +108,10 @@ screen and (min-device-pixel-ratio: 2) {
     margin-bottom: 8px;
 }
 
+.product-name-des {
+    display: none;
+}
+
 /*----------tablet-----------*/
 @media screen and (min-width: 768px) {
     .collection-list {
@@ -124,6 +128,7 @@ screen and (min-device-pixel-ratio: 2) {
     }
 
     .product-name-des {
+        display: block;
         color: var(--white, #fcf9f9);
         font-size: 18px;
         font-weight: 500;
@@ -174,11 +179,6 @@ screen and (min-device-pixel-ratio: 2) {
     .collection-item {
         flex-basis: calc((100% - 40px) / 3);
     }
-
-    .section-our-collection {
-        background-position: top 356px left -171px;
-    }
-
 }
 
 /*----------desktop1440-----------*/
