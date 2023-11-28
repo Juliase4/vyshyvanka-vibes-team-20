@@ -3,7 +3,7 @@
   font-weight: 500;
   line-height: 1.38;
   letter-spacing: -0.03em;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .testimonial-item {
@@ -39,6 +39,7 @@
   font-size: 14px;
   color: rgba(252, 249, 249, 0.4);
 }
+
 /* Tablet adaptive */
 @media screen and (min-width: 768px) {
   .testimonials-list {
@@ -73,7 +74,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-.testimonial-item {
+  .testimonial-item {
     max-width: 396px;
   }
 }
