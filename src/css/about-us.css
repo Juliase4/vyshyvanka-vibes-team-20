@@ -31,6 +31,9 @@
 .about-us-text-second-paragraph {
   margin-bottom: 50px;
 }
+.about-us-image{
+  border-radius: 4px;
+}
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (max-width: 767px),
