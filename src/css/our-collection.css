@@ -30,7 +30,7 @@ screen and (min-device-pixel-ratio: 2) {
 
 .overlay-collection-text {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -136,7 +136,7 @@ screen and (min-device-pixel-ratio: 2) {
     .collection-title {
 
         width: 308px;
-        font-size:44px;
+        font-size: 44px;
         line-height: 1.46;
         letter-spacing: 0.03em;
     }
@@ -148,12 +148,14 @@ screen and (min-device-pixel-ratio: 2) {
     .collection-item:hover .overlay-collection-text {
         transform: translateY(0%);
     }
+
     .collection-item:hover {
         transform: scale(1.05);
     }
 
     .collection-item {
         flex-basis: calc((100% - 40px) / 3);
+    }
 
     .section-our-collection {
         background-position: top 356px left -171px;
@@ -167,5 +169,4 @@ screen and (min-device-pixel-ratio: 2) {
     .section-our-collection {
         background-position: top 290px left -171px;
     }
-
 }
