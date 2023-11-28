@@ -119,6 +119,20 @@ screen and (min-device-pixel-ratio: 2) {
         font-size: 18px;
     }
 
+    .product-name.none {
+        display: none;
+    }
+
+    .product-name-des {
+        color: var(--white, #fcf9f9);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+
     .price {
         font-size: 18px;
         letter-spacing: 0.05em;
@@ -169,6 +183,14 @@ screen and (min-device-pixel-ratio: 2) {
 
 /*----------desktop1440-----------*/
 @media screen and (min-width: 1440px) {
+    .product-name.none {
+        display: block;
+    }
+
+    .product-name-des {
+        display: none;
+    }
+
     .section-our-collection {
         background-position: top 290px left -171px;
     }
