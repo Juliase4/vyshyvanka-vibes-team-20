@@ -2,33 +2,33 @@
   <div class="background-img-order"></div>
   <div class="container your-order-flex-container">
     <div class="order-block">
-      <h2 class="your-order-header">
+      <h2 class="your-order-header"
+        id="your-order">
         <span class="your-order-header-span accent-color">Your order</span> is
         our priority: Personalized approach and quality of service
       </h2>
       <form class="order-form">
-        <input
-          class="name-input"
+        <input class="name-input"
           type="text"
           placeholder="Enter your full name"
-        />
-        <input
-          class="email-input"
+          required />
+        <input class="email-input"
           type="email"
           placeholder="Enter your email"
           title="Maria"
           pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄйЙʼ]+"
-          required
-        />
-        <textarea
-          class="comments-input"
+          required />
+        <textarea class="comments-input"
           type="text"
           placeholder="Comments"
-        ></textarea>
-        <button class="send-btn button" type="submit">
+          required></textarea>
+        <button class="send-btn button"
+          type="submit">
           SEND
-          <svg class="btn-icon" width="27.52" height="22">
-            <use href="../img/symbol-defs.svg#icon-arrow"></use>
+          <svg class="btn-icon"
+            width="27.52"
+            height="22">
+            <use href="./img/symbol-defs.svg#icon-arrow"></use>
           </svg>
         </button>
       </form>
@@ -62,31 +62,18 @@
         />
       </picture> -->
       <!-- ornament img -->
-      <img
-        class="vest-img"
+      <img class="vest-img"
         srcset="
-          ../img/tablet/vest-tab.jpg      638w,
-          ../img/des-one/vest-des.jpg     524w,
-          ../img/tablet/vest-tab@2x.jpg  1276w,
-          ../img/des-one/vest-des@2x.jpg 1048w
+          ./img/tablet/vest-tab.jpg      638w,
+          ./img/des-one/vest-des.jpg     524w,
+          ./img/tablet/vest-tab@2x.jpg  1276w,
+          ./img/des-one/vest-des@2x.jpg 1048w
         "
         sizes="(min-width: 768px) and (max-width: 1279px) 638px, (min-width: 1280px) 524px"
-        src="../img/tablet/vest-tab.jpg"
+        src="./img/tablet/vest-tab.jpg"
         alt="vest vyshivanka"
         width="638"
-        height="521"
-      />
-      <!-- <img
-        class="img-embroidery-pattern"
-        srcset="
-          ../img/ornament/grey-ornament-order@2x.png 2x,
-          ../img/ornament/grey-ornament-order.png    1x
-        "
-        src="../img/ornament/grey-ornament-big.png"
-        alt="візерунок вишиванки"
-        width="545"
-        height="484"
-      /> -->
+        height="521" />
     </div>
   </div>
 </section>

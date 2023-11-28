@@ -46,6 +46,9 @@ screen and (min-device-pixel-ratio: 2) {
     align-items: center;
     gap: 20px;
 }
+.name-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
 
 .name-input {
     width: 100%;
@@ -53,6 +56,14 @@ screen and (min-device-pixel-ratio: 2) {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background: var(--black, #1C2225);
+    transition: border 250ms cubic-bezier(252, 249, 249, 0.10);
+    background-color: transparent;
+    outline: transparent;
+}
+.name-input:active, .name-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    outline-offset: .25rem;
+    outline-color: transparent;
 }
 
 .email-input {
@@ -61,8 +72,18 @@ screen and (min-device-pixel-ratio: 2) {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background: var(--black, #1C2225);
+    background-color: transparent;
+    outline: transparent;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.email-input:active, .email-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    outline-offset: .25rem;
+    outline-color: transparent;
+}
+.email-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
 .comments-input {
     width: 100%;
     height: 192px;
@@ -71,8 +92,25 @@ screen and (min-device-pixel-ratio: 2) {
     border: 1px solid rgba(252, 249, 249, 0.10);
     background: var(--black, #1C2225);
     resize: none;
+    background-color: transparent;
+    outline: transparent;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comments-input:active, .comments-input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+    outline-offset: .25rem;
+    outline-color: transparent;
 }
 
+.comments-input::placeholder {
+    color: rgba(252, 249, 249, 0.50);
+}
+.email-input, .name-input, .comments-input {
+    color: #FCF9F9;
+    font-family: Manrope;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
 .send-btn {
     height: 49px;
     width: 160px;
@@ -85,11 +123,25 @@ screen and (min-device-pixel-ratio: 2) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.send-btn:hover, .send-btn:focus, .send-btn:active {
+    border: 1px solid  #ECD979;
+}
+
 
 .btn-icon {
     fill: #ECD979;
 }
+.btn-icon {
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.send-btn:hover .btn-icon,
+.send-btn:focus .btn-icon,
+.send-btn:active .btn-icon {
+    transform: rotate(30deg);
+}
+
 
 .img-wrapper {
     display: none;
