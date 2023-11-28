@@ -46,7 +46,7 @@
     padding-bottom: 323px;
     background-position: bottom center;
     background-size: 100% 213px;
-    background-image: url('../img/footer/bg-image-04.png');
+    background-image: url(../img/ornament/ornament-footer-mob.png);
   }
   .footer__nav:not(:last-child) {
     margin-bottom: 40px;
@@ -78,7 +78,7 @@
 }
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url('../img/footer/bg-image-03.png');
+    background-image: url(../img/ornament/ornament-footer-mob.png);
     background-size: 174px 367px;
     background-position: top right;
     padding-bottom: 40px;
@@ -104,7 +104,7 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url('../img/footer/bg-image.png');
+    background-image: url(../img/ornament/ornament-footer-des.png);
     background-size: contain;
   }
   .footer__nav:not(:last-child) {
