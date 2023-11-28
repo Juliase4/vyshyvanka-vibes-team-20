@@ -57,8 +57,6 @@ screen and (min-device-pixel-ratio: 2) {
   border: none;
   top: 21px;
   right: 20px;
-  width: 36px;
-  height: 36px;
   padding: 0;
   background-color: transparent;
   display: flex;
@@ -68,6 +66,11 @@ screen and (min-device-pixel-ratio: 2) {
   stroke: #1C2225;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-menu-close-btn-icon {
+  width: 36px;
+  height: 36px;
 }
 
 .closed {
@@ -117,7 +120,7 @@ screen and (min-device-pixel-ratio: 2) {
     }
   }
 
-  .mob-menu-close-btn {
+  .mob-menu-close-btn-icon {
     width: 44px;
     height: 44px;
   }
